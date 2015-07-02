@@ -1,4 +1,4 @@
-var prime = 257;
+var prime = 7919;
 
 /* Split number into the shares */
 function split(number, available, needed) {
@@ -57,7 +57,9 @@ function join(shares) {
     return accum;
 }
 
-var sh = split(129, 6, 3) /* split the secret value 129 into 6 components - at least 3 of which will be needed to figure out the secret value */
-var newshares = [sh[1], sh[3], sh[4]]; /* pick any selection of 3 shared keys from sh */
+// split the secret value into 6 components - at least 3 of which will be needed to figure out the secret value
+var sh = split(2015, 6, 3)
+// pick any selection of 3 shared keys from sh
+var newshares = [sh[1], sh[2], sh[5]];
 
 console.log(join(newshares));
