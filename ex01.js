@@ -1,3 +1,4 @@
+// https://primes.utm.edu/lists/small/1000.txt
 var prime = 7919;
 
 /* Split number into the shares */
