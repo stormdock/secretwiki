@@ -1,5 +1,5 @@
 
-Start with the Javascript on this wiki page
+Start with the Javascript on this wiki page about Shamir's Secret Sharing:
 
 https://goo.gl/NiruzR
 
