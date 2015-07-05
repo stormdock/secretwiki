@@ -66,5 +66,5 @@ function join(shares) {
 var sh = split(2015, 6, 3)
 // pick any selection of 3 shared keys from sh
 var newshares = [sh[1], sh[2], sh[5]];
-
-console.log(join(newshares));
+var myjoin = join(newshares)
+console.log(myjoin);
